@@ -1,0 +1,117 @@
+[0.020s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface/lib:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hunajpu/trabajo_terminal/ros2_ur_driver/src/ros2_control/controller_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface
+[0.077s] -- The C compiler identification is GNU 9.4.0
+[0.143s] -- The CXX compiler identification is GNU 9.4.0
+[0.149s] -- Check for working C compiler: /usr/bin/cc
+[0.245s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.246s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.430s] -- Detecting CXX compiler ABI info
+[0.522s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Detecting CXX compile features
+[0.537s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.566s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.792s] -- Found hardware_interface: 2.4.0 (/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface/share/hardware_interface/cmake)
+[0.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.835s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.914s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.944s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.033s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.620s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.674s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.675s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.676s] -- Looking for pthread.h
+[1.746s] -- Looking for pthread.h - found
+[1.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.825s] -- Looking for pthread_create in pthreads
+[1.884s] -- Looking for pthread_create in pthreads - not found
+[1.885s] -- Looking for pthread_create in pthread
+[1.954s] -- Looking for pthread_create in pthread - found
+[1.955s] -- Found Threads: TRUE  
+[2.149s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.151s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.154s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.337s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.341s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.342s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.391s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.393s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.394s] -- Configured cppcheck include dirs: /home/hunajpu/trabajo_terminal/ros2_ur_driver/src/ros2_control/controller_interface/include
+[2.394s] -- Configured cppcheck exclude dirs and/or files: 
+[2.395s] -- Added test 'lint_cmake' to check CMake code style
+[2.396s] -- Added test 'xmllint' to check XML markup files
+[2.401s] -- Configuring done
+[2.470s] -- Generating done
+[2.471s] -- Build files have been written to: /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface
+[2.484s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface/lib:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hunajpu/trabajo_terminal/ros2_ur_driver/src/ros2_control/controller_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface
+[2.488s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface/lib:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface -- -j8 -l8
+[2.551s] [35m[1mScanning dependencies of target gmock_main[0m
+[2.552s] [35m[1mScanning dependencies of target gmock[0m
+[2.563s] [35m[1mScanning dependencies of target controller_interface[0m
+[2.609s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.623s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[2.637s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[2.684s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[6.407s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.630s] [ 33%] Built target gmock_main
+[9.670s] [ 40%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[10.148s] [ 40%] Built target controller_interface
+[20.073s] [ 46%] [32m[1mLinking CXX static library libgmock.a[0m
+[20.106s] [ 46%] Built target gmock
+[20.117s] [35m[1mScanning dependencies of target test_controller_with_options[0m
+[20.117s] [35m[1mScanning dependencies of target test_imu_sensor[0m
+[20.117s] [35m[1mScanning dependencies of target test_semantic_component_interface[0m
+[20.120s] [35m[1mScanning dependencies of target test_force_torque_sensor[0m
+[20.145s] [ 53%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[20.148s] [ 60%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[20.155s] [ 66%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[20.171s] [ 73%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[25.307s] [ 80%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[25.616s] [ 80%] Built target test_semantic_component_interface
+[25.673s] [ 86%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[25.957s] [ 86%] Built target test_imu_sensor
+[26.023s] [ 93%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[26.294s] [ 93%] Built target test_force_torque_sensor
+[26.940s] [100%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[27.289s] [100%] Built target test_controller_with_options
+[27.304s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface/lib:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface -- -j8 -l8
+[27.343s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface/lib:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface
+[27.354s] -- Install configuration: "Release"
+[27.354s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include
+[27.354s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/semantic_components
+[27.355s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[27.355s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[27.355s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[27.355s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/controller_interface
+[27.355s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/controller_interface/controller_interface.hpp
+[27.355s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/controller_interface/helpers.hpp
+[27.355s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/include/controller_interface/visibility_control.h
+[27.356s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/lib/libcontroller_interface.so
+[27.356s] -- Set runtime path of "/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/lib/libcontroller_interface.so" to ""
+[27.356s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/environment/library_path.sh
+[27.356s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[27.356s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[27.357s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[27.357s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[27.357s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[27.357s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/environment/path.sh
+[27.358s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/environment/path.dsv
+[27.358s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/local_setup.bash
+[27.358s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/local_setup.sh
+[27.358s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/local_setup.zsh
+[27.358s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/local_setup.dsv
+[27.359s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/package.dsv
+[27.359s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[27.359s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.359s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.359s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[27.359s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[27.360s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[27.360s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/controller_interface/share/controller_interface/package.xml
+[27.365s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/hardware_interface/lib:/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/controller_interface

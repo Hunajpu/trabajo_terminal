@@ -1,0 +1,65 @@
+[0.055s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/trabajo_terminal/ros2_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config
+[0.465s] -- The C compiler identification is GNU 9.4.0
+[0.624s] -- The CXX compiler identification is GNU 9.4.0
+[0.633s] -- Check for working C compiler: /usr/bin/cc
+[1.058s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.060s] -- Detecting C compiler ABI info
+[1.453s] -- Detecting C compiler ABI info - done
+[1.512s] -- Detecting C compile features
+[1.516s] -- Detecting C compile features - done
+[1.527s] -- Check for working CXX compiler: /usr/bin/c++
+[1.930s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.934s] -- Detecting CXX compiler ABI info
+[2.440s] -- Detecting CXX compiler ABI info - done
+[2.503s] -- Detecting CXX compile features
+[2.504s] -- Detecting CXX compile features - done
+[2.507s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.611s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.612s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.747s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[4.184s] -- Configuring done
+[4.252s] -- Generating done
+[4.254s] -- Build files have been written to: /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config
+[4.276s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:/opt/ros/foxy /usr/bin/cmake /home/hunajpu/trabajo_terminal/ros2_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config
+[4.277s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config -- -j8 -l8
+[4.559s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config -- -j8 -l8
+[4.927s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config
+[5.020s] -- Install configuration: "Release"
+[5.020s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config
+[5.020s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[5.020s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[5.020s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[5.021s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[5.021s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch
+[5.021s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[5.021s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz
+[5.021s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[5.021s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf
+[5.022s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[5.022s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[5.022s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[5.022s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[5.022s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config
+[5.023s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config/__init__.py
+[5.023s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config/launch_common.py
+[5.234s] Listing '/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config'...
+[5.234s] Compiling '/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config/__init__.py'...
+[5.234s] Compiling '/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config/launch_common.py'...
+[5.253s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/launch_common.py
+[5.445s] Compiling '/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/launch_common.py'...
+[5.455s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[5.455s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[5.456s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[5.456s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[5.456s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[5.456s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[5.457s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[5.457s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[5.457s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[5.457s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[5.457s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[5.458s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[5.458s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[5.458s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[5.458s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[5.472s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/ur_description:/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_moveit_config

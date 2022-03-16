@@ -1,0 +1,57 @@
+[0.041s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/trabajo_terminal/ros2_ur_driver/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description
+[2.172s] -- The C compiler identification is GNU 9.4.0
+[2.172s] -- The CXX compiler identification is GNU 9.4.0
+[2.172s] -- Check for working C compiler: /usr/bin/cc
+[2.174s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.175s] -- Detecting C compiler ABI info
+[2.175s] -- Detecting C compiler ABI info - done
+[2.175s] -- Detecting C compile features
+[2.175s] -- Detecting C compile features - done
+[2.175s] -- Check for working CXX compiler: /usr/bin/c++
+[2.175s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.175s] -- Detecting CXX compiler ABI info
+[2.175s] -- Detecting CXX compiler ABI info - done
+[2.175s] -- Detecting CXX compile features
+[2.175s] -- Detecting CXX compile features - done
+[2.176s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.177s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.178s] -- Configuring done
+[2.180s] -- Generating done
+[2.180s] -- Build files have been written to: /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description
+[2.184s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/hunajpu/trabajo_terminal/ros2_ur_driver/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description
+[2.185s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description -- -j8 -l8
+[4.883s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description -- -j8 -l8
+[5.181s] Invoking command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description
+[5.286s] -- Install configuration: "Release"
+[5.292s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/config
+[5.293s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/config/diffbot_view.rviz
+[5.294s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[5.294s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/gazebo
+[5.297s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[5.298s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[5.298s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/launch
+[5.298s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/launch/view_robot.launch.py
+[5.299s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/ros2_control
+[5.299s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[5.299s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/ros2_control/diffbot.ros2_control.xacro
+[5.299s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/urdf
+[5.299s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[5.299s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/urdf/diffbot_description.urdf.xacro
+[5.300s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[5.300s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[5.300s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[5.301s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[5.301s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[5.301s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/environment/path.sh
+[5.301s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[5.301s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.bash
+[5.301s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.sh
+[5.302s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[5.302s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[5.302s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/package.dsv
+[5.302s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[5.302s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[5.302s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[5.302s] -- Installing: /home/hunajpu/trabajo_terminal/ros2_ur_driver/install/diffbot_description/share/diffbot_description/package.xml
+[5.327s] Invoked command in '/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/hunajpu/trabajo_terminal/ros2_ur_driver/build/diffbot_description

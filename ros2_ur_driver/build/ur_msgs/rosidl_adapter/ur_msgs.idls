@@ -1,0 +1,10 @@
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Analog.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Digital.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:msg/IOStates.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotStateRTMsg.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:msg/MasterboardDataMsg.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotModeDataMsg.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:msg/ToolDataMsg.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetPayload.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetSpeedSliderFraction.idl
+/home/hunajpu/trabajo_terminal/ros2_ur_driver/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetIO.idl
