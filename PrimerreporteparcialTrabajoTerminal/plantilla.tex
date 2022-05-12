@@ -1,0 +1,59 @@
+\documentclass[letterpaper,11pt]{Constructor/perdidos/upiita}
+\usepackage{Constructor/configuracion/upiitatesis}
+\usepackage[spanish]{babel}
+\usepackage{colortbl}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{multirow} 
+\usepackage{tabulary}
+\usepackage[numbered,framed]{matlab-prettifier}
+
+
+% Llenando datos de portada
+\input{0 Preliminar/0.1 Portada}
+\makeindex
+\setlength{\parskip}{.2em} % Reducir espaciado
+
+
+\begin{document}
+
+% Normalizando nombres de tablas, algoritmos, etc...
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{2}
+\renewcommand{\tablename}{TABLA}
+\renewcommand{\figurename}{Figura}
+
+\renewcommand{\lstlistingname}{Código}
+\renewcommand\refname{Referencias}
+
+\frontmatter
+\portada
+\acta
+\cambiamargen
+\dedicatoria              %%%modificar archivo dedica.tex
+\agradecimientos          %%%modificar archivo agradece.tex
+\tabladecontenido
+\setlength{\parskip}{.2em}
+\input{0 Preliminar/0.9 Resumen y abstract}
+\setlength{\parskip}{.2em}
+\listadefiguras
+\listadetablas
+\setlength{\parskip}{.2em}
+
+%Preliminar
+\input{0 Preliminar/0.7 Abreviaturas}
+\input{0 Preliminar/0.8 Simbologia}
+%Inicial
+\input{1 Inicial/1.0 Introduccion}
+holiss
+%Media
+\mainmatter
+\input{2 Media/2.0 Media}
+%Final
+\input{3 Final/3.0 Final}
+%Adicional
+\input{4 Adicional/4.0 Adicional}
+
+\newpage
+
+\end{document}
